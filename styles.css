@@ -1,0 +1,120 @@
+/*
+ * GENERAL STYLES
+ * GENERAL STYLES
+ * GENERAL STYLES
+ * GENERAL STYLES
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  padding: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+/*
+ * NAV AND HERO SECTION
+ * NAV AND HERO SECTION
+ * NAV AND HERO SECTION
+ * NAV AND HERO SECTION
+ */
+
+.main-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.42)),
+    url(art/hero-forest.jpg) no-repeat center top/cover;
+  color: white;
+}
+
+.main-nav {
+  min-height: 10vh;
+  padding: 2rem 0;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  flex: 1 1 40rem;
+  font-family: "Akaya Telivigala", sans-serif;
+}
+
+.main-list {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+
+.hero {
+  height: 70vh;
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+
+.hero-h2 {
+  padding: 15rem 0 5rem 0;
+  width: 50%;
+  font-size: 4rem;
+}
+
+.hero-button {
+  background: white;
+  padding: 2rem 4rem;
+  color: black;
+  font-size: 1.7rem;
+}
+
+.hero-button:hover {
+  color: white;
+  background: black;
+}
+
+@media screen and (max-width: 650px) {
+  .main-nav {
+    text-align: center;
+  }
+  .main-nav ul {
+    display: none;
+  }
+  .hero-h2 {
+    font-size: 2rem;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+  }
+  .hero-button {
+    padding: 1rem 2rem;
+  }
+  .hero-button-container {
+    text-align: center;
+  }
+}
